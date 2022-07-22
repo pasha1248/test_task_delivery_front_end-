@@ -1,0 +1,44 @@
+/** @format */
+
+.header {
+  display: flex;
+  max-width: 70%;
+  gap: 5rem;
+  .item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    a {
+      transition: all 0.3s ease;
+      color: black;
+      position: relative;
+      &:active {
+        color: green;
+      }
+      span {
+        display: block;
+        width: 16px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: rgb(75, 21, 123);
+        color: white;
+        padding: 2px;
+        margin: 3px;
+        position: absolute;
+        bottom: 10px;
+        left: 11px;
+        font-size: 20px;
+      }
+    }
+    &:hover {
+      transform: translateX(5px);
+    }
+  }
+}
+
+.total {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: rgb(169, 186, 203);
+  border-radius: 20px;
+  font-size: 30px;
+}

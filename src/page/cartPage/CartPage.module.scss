@@ -1,0 +1,47 @@
+/** @format */
+
+.cart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+}
+
+.autoInput {
+  position: relative;
+}
+
+.suggestion {
+  position: absolute;
+  transform: translateY(1px);
+  background-color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  width: 47%;
+  z-index: 10;
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  text-align: left;
+  cursor: pointer;
+
+  li {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  li:hover {
+    background-color: #c6c6c6;
+  }
+}
+
+.inputComtainer {
+  border: 1px solid transparent;
+  margin-right: 10px;
+
+  .textInput {
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+}

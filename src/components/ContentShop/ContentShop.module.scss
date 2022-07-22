@@ -1,0 +1,54 @@
+/** @format */
+
+.content {
+  margin: 10px 10px 10px 0;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+      transform: translateY(5px);
+    }
+
+    img {
+      height: 260px;
+      width: 270px;
+      border-radius: 50%;
+    }
+
+    .itemText {
+      padding: 10px;
+
+      p {
+        color: gray;
+      }
+    }
+
+    .itemPrice {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .icon {
+      font-size: 35px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}

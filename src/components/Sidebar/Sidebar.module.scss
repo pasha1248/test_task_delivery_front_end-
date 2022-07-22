@@ -1,0 +1,54 @@
+/** @format */
+
+.sidebar {
+  height: 40rem;
+  margin: 10px 20px 30px 10px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+
+  span {
+    padding: 20px 30px;
+    margin-top: 20px;
+    background-color: #ec6084;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    &:hover {
+      font-size: 25px;
+      background-color: #bb7d8d;
+    }
+  }
+  ul {
+    list-style: none;
+
+    li {
+      margin: 30px;
+      font-size: 25px;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      position: relative;
+
+      .icon {
+        transition: all 0.3s ease-in-out;
+        position: absolute;
+        right: 20px;
+      }
+
+      &:hover {
+        transform: translateX(5px);
+        color: #ec6084;
+
+        .icon {
+          position: absolute;
+          transform: rotate(350deg);
+          font-size: 30px;
+        }
+      }
+      .iconDis {
+        position: absolute;
+        right: 20px;
+      }
+    }
+  }
+}
