@@ -29,7 +29,7 @@ const InputInfo = () => {
 
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: process.env.REACT_APP_API_KEY,
+    googleMapsApiKey: 'AIzaSyDO_2Fo2Rbb2CLlaR3DIqh6W8ZuYHcv0js',
     libraries,
   })
 
