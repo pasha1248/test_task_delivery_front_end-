@@ -14,4 +14,4 @@ https://github.com/pasha1248/delivery-task-back
 
 
 Demo:
-https://app.netlify.com/sites/quiet-mousse-6d84b8/overview
+https://quiet-mousse-6d84b8.netlify.app/
